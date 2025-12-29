@@ -1,0 +1,7 @@
+project_id = "uehcixjlmniratqcrvva"
+
+[functions.lookup-order]
+verify_jwt = false
+
+[functions.submit-return]
+verify_jwt = false

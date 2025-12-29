@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteBase /
+# Serve existing files/directories normally
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+# Route all other requests to the SPA entry point
+RewriteRule ^ index.html [L]
