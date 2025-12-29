@@ -310,7 +310,7 @@ export default function CustomerReturnPortal() {
             <img 
               src={elevenCoastLogo} 
               alt="Eleven Coast" 
-              className="h-12 w-auto"
+              className="h-24 w-auto"
             />
             <div>
               <h1 className="font-display text-xl font-bold text-foreground">Return Portal</h1>
